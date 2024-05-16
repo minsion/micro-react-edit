@@ -1,0 +1,68 @@
+.apdFieldGroup {
+  margin-bottom: 10px;
+  label{
+    font-weight: bold;
+    color: #4096ff;
+    margin-bottom: 5px;
+  }
+  label.apdRequired:after {
+    content: "*";
+  }
+  input{
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 10px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    border-radius: 6px;
+    transition: all 0.2s;
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    &:focus {
+      border: 1px solid #4096ff;
+      outline: none;
+    }
+  }
+}
+&.apdFieldError .mediaLibraryAssetView {
+  border: 1px solid red;
+}
+textarea {
+  width: 100%;
+  height: 6rem;
+}
+span.apdFieldErrorText {
+  color: red;
+  font-size: 0.9rem;
+  padding: 0.5em 0;
+  display: block;
+  visibility: hidden;
+  min-height: 1rem;
+}
+&.apdFieldError {
+  label {
+    color: red;
+  }
+  input {
+    border: 1px solid red;
+  }
+  .apdFieldErrorText {
+    visibility: visible;
+  }
+  // MUI Select error outline
+  .MuiOutlinedInput-root fieldset.MuiOutlinedInput-notchedOutline {
+    border: 1px solid red;
+  }
+}
+&.readOnlyField {
+  margin-bottom: 2.5em;
+}

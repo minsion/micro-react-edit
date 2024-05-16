@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/editorList.js",
+    "main.css": "/static/css/main.99a698a9.css",
+    "index.html": "/index.html",
+    "editorList.js.map": "/editorList.js.map",
+    "main.99a698a9.css.map": "/static/css/main.99a698a9.css.map"
+  },
+  "entrypoints": [
+    "editorList.js",
+    "static/css/main.99a698a9.css"
+  ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EditorList</title>
+</head>
+<body>
+  <div style="width: 600px;margin: 0 auto;" id="container"></div>
+
+  <script src="http://localhost:3001/editorList.js"></script>
+  <script>
+    if (typeof (EditorList) !== 'undefined'){
+      console.log(666, EditorList.Client())
+      EditorList.Client().config({
+        appid: 'test',
+        selector: 'container'
+      })
+      EditorList.Client().render()
+    }
+    
+  </script>
+</body>
+</html>

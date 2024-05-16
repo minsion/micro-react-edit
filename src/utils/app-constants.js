@@ -1,0 +1,3 @@
+export const SHOW_HIDE_PANEL_TRANSITION = 300
+export const TEMPLATE_FIELD_LENGTH_LIMIT = 4000
+export const SECURE_AUTH = "/"

@@ -1,0 +1,103 @@
+.App {
+  width: 100%;
+  margin: 0 auto;
+}
+.App h1{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.App .title-content{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 4px 4px #eee;
+}
+.App .title-content .left{
+  width: 100px;
+  background-color: #6519d6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .title-content .left svg{
+  font-size: 20px;
+  color: #fff;
+}
+.App .title-content .right{
+  margin-left: 30px;
+}
+.App .title-content .right .sub-title{
+  margin: 20px;
+  font-size: 12px;
+  color: #878787;
+}
+.App .title-content .right .sub-content{
+  font-size: 16px;
+  margin: 20px;
+  font-weight: 600;
+}
+.App .w-e-text-container [data-slate-editor]{
+  border: none;
+}
+.App .list-content{
+  margin: 30px 0 30px 0;
+}
+.App .list-content .title{
+  display: flex;
+}
+.App .list-content .title .left{
+  width: 360px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #5b1ecb;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 25px;
+}
+.App .list-content .title .center{
+  flex: 1;
+  height: 1px;
+  margin-top: 13px;
+  background-color: #dcdbdc
+}
+.App .list-content .title .right{
+  width: 125px;
+  line-height: 25px;
+}
+.set-btn{
+  width: 400px;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+}
+
+.posts-btn{
+  width: 400px;
+  height: 40px;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 20px;
+  background-color: #591fca;
+  color: #fff ;
+}
+.post-btn{
+  width: 300px;
+  height: 40px;
+  margin: 20px 0 20px 0;
+  background-color: #591fca;
+  color: #fff;
+}
+.edit-btn.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{
+  color: #fff;
+  background-color: #4827b9;
+  border-color: #4827b9;
+}
+.del-btn{
+  margin-left: 10px;
+}
+.del-btn.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover{
+  color: #fff;
+  background-color: #ff0330;
+  border-color: #ff0330;
+}
+
