@@ -16,4 +16,4 @@ npm run start
 ```
 
 ### preview
-[preview](./preview.png)
+![preview.png](./preview.png)
