@@ -1,12 +1,12 @@
 ## micro-react-editorList
 
-### install
+### 1.install
 
 ```bash
   yarn install
 ```
 
-### run
+### 2.run
 
 ```bash
 npm run build:local
@@ -15,5 +15,5 @@ npm run start
 # http://127.0.0.1:5500/testClient/demo.html
 ```
 
-### preview
+### 3.preview
 ![preview.png](./preview.png)
